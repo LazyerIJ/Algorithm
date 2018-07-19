@@ -1,4 +1,5 @@
 //단체사진찍기
+//https://programmers.co.kr/learn/courses/30/lessons/1835
 #include <string>
 #include <vector>
 #include <algorithm>
