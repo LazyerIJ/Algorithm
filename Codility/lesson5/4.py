@@ -2,8 +2,6 @@ def solution(A, B, K):
     return B//K - (A-1)//K
 
 
-    return dist
-
 if __name__ == '__main__':
     import time
 
