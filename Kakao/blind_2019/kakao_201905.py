@@ -3,6 +3,9 @@
 https://www.welcomekakao.com/learn/courses/30/lessons/42892?language=python3
 """
 def solution(graph):
+    #파이썬 재귀함수 소출 limit이 1000이기 때문에 설정 변경 필요
+    import sys
+    sys.setrecursionlimit(10**6)
 
     if len(graph)==1:
         return [[1], [1]]
