@@ -6,10 +6,12 @@ if (not VISITED[z][h][x]) and (GRAPH[z][h][x] ==0) --> timeout
 if GRAPH[z][h][x]==0 --> SUCCESS
 
 list -> list.pop(0) -> timeout
-deque -> deque.popleft() -> SUCCESS
+collections.deque -> deque.popleft() -> SUCCESS
+queue.deque -> queue.popleft() -> SUCCESS
 '''
 import sys
-from collections import deque
+#from collections import deque
+from queue import deque
 sys.setrecursionlimit(10**6)
 input = sys.stdin.readline
 
